@@ -1,3 +1,12 @@
-module.exports.helloWorld = undefined;
+module.exports.helloWorld = function() {
+    return 'Hello World';
+};
 
-module.exports.multiply = undefined;
+helloWorld();
+
+
+module.exports.multiply = function(num1, num2) {
+    return num1 * num2
+};
+
+multiply(20, 20);
