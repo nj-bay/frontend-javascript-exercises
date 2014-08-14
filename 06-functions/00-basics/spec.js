@@ -26,3 +26,4 @@ describe("multiply", function() {
     expect(challenge.multiply(5,12)).to.equal(60);
   });
 });
+
